@@ -1,0 +1,623 @@
+{
+  "title": "Jak dobře znáte AI?",
+  "questionsPerGame": 20,
+  "results": [
+    {
+      "minShare": 0,
+      "title": "Dobrý začátek",
+      "text": "Každý začátek se počítá a AI se dá zvládnout krok za krokem. Víc se naučíte v bezplatném kurzu Elements of AI."
+    },
+    {
+      "minShare": 0.5,
+      "title": "Slušný základ",
+      "text": "V AI se orientujete celkem dobře. Víc se naučíte v bezplatném kurzu Elements of AI."
+    },
+    {
+      "minShare": 0.8,
+      "title": "Máte přehled",
+      "text": "O AI toho víte hodně, ale vždy je co objevovat. Víc se naučíte v bezplatném kurzu Elements of AI."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Které dílo proslavilo slovo „robot“?",
+      "answers": [
+        "R.U.R. Karla Čapka",
+        "Golem Gustava Meyrinka",
+        "Metropolis Fritze Langa",
+        "Já, robot Isaaca Asimova"
+      ],
+      "correct": 0,
+      "explanation": "Slovo pochází z Čapkovy hry R.U.R. a autorovi ho navrhl jeho bratr Josef."
+    },
+    {
+      "id": "q02",
+      "question": "Jak se jmenoval slavný chatbot z 60. let?",
+      "answers": [
+        "Siri",
+        "ELIZA",
+        "Alexa",
+        "Watson"
+      ],
+      "correct": 1,
+      "explanation": "ELIZU vytvořil v 60. letech Joseph Weizenbaum z MIT. Ukázala, jak snadno lidé přisuzují strojům porozumění."
+    },
+    {
+      "id": "q03",
+      "question": "Co zkoumá Turingův test?",
+      "answers": [
+        "Rychlost počítače",
+        "Inteligenci člověka",
+        "Jestli člověk v rozhovoru pozná stroj",
+        "Jestli program neobsahuje chyby"
+      ],
+      "correct": 2,
+      "explanation": "Alan Turing test popsal v roce 1950. Stroj uspěje, když ho člověk v rozhovoru nerozezná od jiného člověka."
+    },
+    {
+      "id": "q04",
+      "question": "Kde se v roce 1956 konalo setkání, které dalo oboru umělé inteligence jméno?",
+      "answers": [
+        "Na Oxfordské univerzitě",
+        "V Dartmouthu v USA",
+        "V Tokiu",
+        "V Praze"
+      ],
+      "correct": 1,
+      "explanation": "Letní výzkumný projekt na Dartmouth College je považovaný za zrod AI jako samostatného oboru."
+    },
+    {
+      "id": "q05",
+      "question": "Ve které hře porazil počítač Deep Blue v roce 1997 Garriho Kasparova?",
+      "answers": [
+        "Dáma",
+        "Šachy",
+        "Go",
+        "Poker"
+      ],
+      "correct": 1,
+      "explanation": "Deep Blue od IBM tehdy poprvé porazil úřadujícího mistra světa v šachovém zápase."
+    },
+    {
+      "id": "q06",
+      "question": "Ve které hře porazil AlphaGo v roce 2016 Lee Sedola?",
+      "answers": [
+        "Go",
+        "Šachy",
+        "Mahjong",
+        "Scrabble"
+      ],
+      "correct": 0,
+      "explanation": "Go má tolik možných pozic, že se dlouho považovalo za příliš těžké pro počítače."
+    },
+    {
+      "id": "q07",
+      "question": "V jakém roce se ChatGPT stal veřejně dostupným?",
+      "answers": [
+        "2012",
+        "2018",
+        "2022",
+        "2025"
+      ],
+      "correct": 2,
+      "explanation": "OpenAI službu spustila v listopadu 2022."
+    },
+    {
+      "id": "q08",
+      "question": "Za co dostali John Hopfield a Geoffrey Hinton Nobelovu cenu za fyziku 2024?",
+      "answers": [
+        "Za vynález internetu",
+        "Za objevy, které umožnily strojové učení s neuronovými sítěmi",
+        "Za první kvantový počítač",
+        "Za objev nové částice"
+      ],
+      "correct": 1,
+      "explanation": "Královská švédská akademie věd ocenila jejich základní objevy v oblasti umělých neuronových sítí."
+    },
+    {
+      "id": "q09",
+      "question": "Co předpovídá systém AlphaFold?",
+      "answers": [
+        "Počasí",
+        "Ceny akcií",
+        "Trojrozměrnou strukturu bílkovin",
+        "Výsledky voleb"
+      ],
+      "correct": 2,
+      "explanation": "Práce na AlphaFoldu přinesla Demisu Hassabisovi a Johnu Jumperovi Nobelovu cenu za chemii 2024."
+    },
+    {
+      "id": "q10",
+      "question": "Co znamená písmeno T v názvu ChatGPT?",
+      "answers": [
+        "Transformer",
+        "Text",
+        "Trained",
+        "Turing"
+      ],
+      "correct": 0,
+      "explanation": "GPT je zkratka Generative Pre-trained Transformer. Transformer je typ neuronové sítě."
+    },
+    {
+      "id": "q11",
+      "question": "Co je strojové učení?",
+      "answers": [
+        "Výuka žáků pomocí počítačů",
+        "Ruční psaní všech pravidel do programu",
+        "Oprava strojů pomocí AI",
+        "Hledání zákonitostí v datech počítačem"
+      ],
+      "correct": 3,
+      "explanation": "Místo přesných pravidel dostane počítač příklady a zákonitosti si z nich odvodí."
+    },
+    {
+      "id": "q12",
+      "question": "Čím se volně inspirují umělé neuronové sítě?",
+      "answers": [
+        "Lidským mozkem",
+        "Telefonní sítí",
+        "Včelím úlem",
+        "Mapou metra"
+      ],
+      "correct": 0,
+      "explanation": "Inspirace je jen volná. Umělá síť se skládá z jednoduchých výpočetních jednotek, ne ze skutečných neuronů."
+    },
+    {
+      "id": "q13",
+      "question": "Co se děje při trénování modelu?",
+      "answers": [
+        "Model se nahraje do telefonu",
+        "Model se postupně upravuje podle příkladů",
+        "Programátoři model zkoušejí z paměti",
+        "Model se připojí k internetu"
+      ],
+      "correct": 1,
+      "explanation": "Model zkouší odhadovat správné výsledky a jeho vnitřní nastavení se postupně upravuje tak, aby chyboval méně."
+    },
+    {
+      "id": "q14",
+      "question": "Co v podstatě dělá velký jazykový model, když píše odpověď?",
+      "answers": [
+        "Hledá hotovou odpověď v databázi",
+        "Přepisuje text z Wikipedie",
+        "Odhaduje, jaký text má následovat",
+        "Ptá se lidí v call centru"
+      ],
+      "correct": 2,
+      "explanation": "Model se z velkého množství textů naučil zákonitosti jazyka a podle nich skládá odpověď."
+    },
+    {
+      "id": "q15",
+      "question": "Čím se zabývá česká firma Rossum?",
+      "answers": [
+        "Výrobou robotů do kuchyně",
+        "Automatickým zpracováním firemních dokumentů",
+        "Vývojem počítačových her",
+        "Předpovědí počasí"
+      ],
+      "correct": 1,
+      "explanation": "Rossum učí počítače číst dokumenty, například faktury, aby je lidé nemuseli přepisovat ručně."
+    },
+    {
+      "id": "q16",
+      "question": "Proč může AI na stejnou otázku odpovědět pokaždé trochu jinak?",
+      "answers": [
+        "Protože má špatnou náladu",
+        "Protože pracuje s pravděpodobnostmi",
+        "Protože se mezitím vždy přeučí",
+        "Protože odpověď píše pokaždé jiný člověk"
+      ],
+      "correct": 1,
+      "explanation": "Model často vybírá z více pravděpodobných pokračování, takže text nemusí vyjít pokaždé stejně."
+    },
+    {
+      "id": "q17",
+      "question": "Proč se AI trénuje hlavně na grafických procesorech?",
+      "answers": [
+        "Protože mají lepší barvy",
+        "Protože jsou nejlevnější",
+        "Protože zvládnou mnoho výpočtů najednou",
+        "Protože se nezahřívají"
+      ],
+      "correct": 2,
+      "explanation": "Trénování tvoří obrovské množství podobných výpočtů a ty se dají dělat souběžně."
+    },
+    {
+      "id": "q18",
+      "question": "Co je generativní AI?",
+      "answers": [
+        "AI, která vytváří nový obsah, například text nebo obrázky",
+        "AI určená jen pro jednu generaci",
+        "AI, která vyrábí elektřinu",
+        "Starší verze AI"
+      ],
+      "correct": 0,
+      "explanation": "Generativní modely tvoří nový obsah podle vzorců, které se naučily z příkladů."
+    },
+    {
+      "id": "q19",
+      "question": "Co je prompt?",
+      "answers": [
+        "Rychlé tlačítko na klávesnici",
+        "Chyba v programu",
+        "Zadání, které člověk napíše AI",
+        "Druh počítače"
+      ],
+      "correct": 2,
+      "explanation": "Prompt je vaše zadání. Čím je jasnější, tím lepší výsledek obvykle dostanete."
+    },
+    {
+      "id": "q20",
+      "question": "Co znamená, že AI halucinuje?",
+      "answers": [
+        "Přehřívá se",
+        "Sebejistě tvrdí něco, co není pravda",
+        "Odmítá odpovědět",
+        "Odpovídá pomalu"
+      ],
+      "correct": 1,
+      "explanation": "Model může vymyslet fakta, citace nebo zdroje a znít přitom velmi přesvědčivě."
+    },
+    {
+      "id": "q21",
+      "question": "Proč může být AI zaujatá?",
+      "answers": [
+        "Protože se učí z dat, která mohou obsahovat předsudky",
+        "Protože má vlastní politické názory",
+        "Protože si tak přejí uživatelé",
+        "Zaujatá být nemůže"
+      ],
+      "correct": 0,
+      "explanation": "Když jsou v tréninkových datech předsudky nebo některé skupiny chybí, může je model přenést do výsledků."
+    },
+    {
+      "id": "q22",
+      "question": "Co je deepfake?",
+      "answers": [
+        "Velmi hluboká neuronová síť",
+        "Falešný účet na sociální síti",
+        "Počítačový virus",
+        "Video, obraz nebo zvuk vytvořený či upravený AI tak, aby působil skutečně"
+      ],
+      "correct": 3,
+      "explanation": "Deepfaky mohou napodobit vzhled i hlas skutečných lidí. Důvěryhodnost je proto dobré ověřovat."
+    },
+    {
+      "id": "q23",
+      "question": "Co udělat s důležitou informací od AI?",
+      "answers": [
+        "Rovnou ji použít",
+        "Ověřit ji v důvěryhodném zdroji",
+        "Zeptat se AI, jestli si je jistá, a tím to skončit",
+        "Přeposlat ji známým"
+      ],
+      "correct": 1,
+      "explanation": "AI se může splést, i když zní jistě. U zdraví, peněz nebo práva je ověření obzvlášť důležité."
+    },
+    {
+      "id": "q24",
+      "question": "Co by nemělo patřit do veřejného chatbota?",
+      "answers": [
+        "Recept na bábovku",
+        "Plán výletu",
+        "Hesla a rodné číslo",
+        "Otázka na pravopis"
+      ],
+      "correct": 2,
+      "explanation": "Hesla ani citlivé osobní údaje do veřejných nástrojů nepatří."
+    },
+    {
+      "id": "q25",
+      "question": "Co obvykle vede k lepší odpovědi od AI?",
+      "answers": [
+        "Psát velkými písmeny",
+        "Konkrétní zadání s kontextem",
+        "Co nejkratší dotaz",
+        "Opakovat stejnou větu"
+      ],
+      "correct": 1,
+      "explanation": "Pomáhá napsat, pro koho výstup je, co má obsahovat a jak má vypadat."
+    },
+    {
+      "id": "q26",
+      "question": "Co z tohoto běžně využívá strojové učení?",
+      "answers": [
+        "Baterka v telefonu",
+        "Budík",
+        "Kalkulačka",
+        "Filtr spamu v e-mailu"
+      ],
+      "correct": 3,
+      "explanation": "Filtr se na příkladech učí poznávat nevyžádanou poštu, a to dávno před nástupem chatbotů."
+    },
+    {
+      "id": "q27",
+      "question": "Co je AI Act?",
+      "answers": [
+        "Nařízení Evropské unie o umělé inteligenci",
+        "Divadelní hra o robotech",
+        "Americký zákon o sociálních sítích",
+        "Název chatbota"
+      ],
+      "correct": 0,
+      "explanation": "AI Act stanovuje pravidla pro AI v EU a přísnost povinností se odvíjí od míry rizika."
+    },
+    {
+      "id": "q28",
+      "question": "Co má podle AI Actu zpravidla vědět člověk, který si píše s chatbotem?",
+      "answers": [
+        "Jméno programátora",
+        "Cenu jeho vývoje",
+        "Že komunikuje s AI",
+        "Kde stojí jeho servery"
+      ],
+      "correct": 2,
+      "explanation": "Pokud to není zřejmé, musí být člověk informován, že komunikuje s AI systémem."
+    },
+    {
+      "id": "q29",
+      "question": "Kdo v únoru 2025 zavedl pojem vibe coding?",
+      "answers": [
+        "Andrej Karpathy",
+        "Sam Altman",
+        "Elon Musk",
+        "Linus Torvalds"
+      ],
+      "correct": 0,
+      "explanation": "Karpathy tak popsal tvorbu softwaru, při které člověk popisuje záměr a kód generuje AI."
+    },
+    {
+      "id": "q30",
+      "question": "Ve které zemi vznikl kurz Elements of AI?",
+      "answers": [
+        "V Česku",
+        "Ve Finsku",
+        "V Kanadě",
+        "V Japonsku"
+      ],
+      "correct": 1,
+      "explanation": "Kurz vytvořila Helsinská univerzita s firmou MinnaLearn. V češtině ho přináší prg.ai."
+    },
+    {
+      "id": "q31",
+      "question": "Ve které hře se proslavil program DeepStack, na kterém pracovali i čeští vědci?",
+      "answers": [
+        "Poker",
+        "Šachy",
+        "Go",
+        "Piškvorky"
+      ],
+      "correct": 0,
+      "explanation": "DeepStack v roce 2017 porazil profesionální hráče pokeru. Na jeho vývoji se podíleli i vědci z Univerzity Karlovy a ČVUT."
+    },
+    {
+      "id": "q32",
+      "question": "Jak se říká schopnosti modelu pracovat s textem, obrázky i zvukem zároveň?",
+      "answers": [
+        "Multitasking",
+        "Multimodalita",
+        "Multimedialita",
+        "Polyfonie"
+      ],
+      "correct": 1,
+      "explanation": "Multimodální model zpracuje různé druhy vstupů, například popíše fotografii nebo odpoví na mluvený dotaz."
+    },
+    {
+      "id": "q33",
+      "question": "Co je dataset?",
+      "answers": [
+        "Soubor dat, ze kterého se model učí nebo na kterém se testuje",
+        "Nastavení obrazovky",
+        "Druh procesoru",
+        "Zálohovací disk"
+      ],
+      "correct": 0,
+      "explanation": "Kvalita dat výrazně ovlivňuje, jak dobře bude model fungovat."
+    },
+    {
+      "id": "q34",
+      "question": "Co znamená zkratka AI?",
+      "answers": [
+        "Automatic Information",
+        "Advanced Internet",
+        "Artificial Intelligence",
+        "Analog Interface"
+      ],
+      "correct": 2,
+      "explanation": "Česky umělá inteligence. Zkratka UI se v češtině používá méně."
+    },
+    {
+      "id": "q35",
+      "question": "Kterou z těchto věcí dělá chytrý telefon s pomocí strojového učení?",
+      "answers": [
+        "Bezdrátové nabíjení",
+        "Odemčení podle obličeje",
+        "Ochrana displeje před poškrábáním",
+        "Zvýšení kapacity baterie"
+      ],
+      "correct": 1,
+      "explanation": "Rozpoznávání obličeje používá strojové učení, které porovná váš obličej s uloženým vzorem."
+    },
+    {
+      "id": "q36",
+      "question": "Kdo formuloval tři zákony robotiky?",
+      "answers": [
+        "Karel Čapek",
+        "Arthur C. Clarke",
+        "Isaac Asimov",
+        "Philip K. Dick"
+      ],
+      "correct": 2,
+      "explanation": "Asimov je poprvé popsal v povídce z roku 1942. Proslavila je sbírka Já, robot."
+    },
+    {
+      "id": "q37",
+      "question": "Jak se jmenoval počítač, který v roce 2011 vyhrál televizní soutěž Jeopardy!?",
+      "answers": [
+        "Deep Blue",
+        "Watson",
+        "AlphaGo",
+        "ELIZA"
+      ],
+      "correct": 1,
+      "explanation": "Watson od IBM porazil dva nejúspěšnější hráče soutěže, Kena Jenningse a Brada Ruttera."
+    },
+    {
+      "id": "q38",
+      "question": "Co je token u jazykového modelu?",
+      "answers": [
+        "Platební karta pro AI",
+        "Kousek textu, se kterým model pracuje, třeba slovo nebo jeho část",
+        "Heslo k účtu",
+        "Chyba v odpovědi"
+      ],
+      "correct": 1,
+      "explanation": "Model text nečte po písmenech, ale po tokenech. Proto mu někdy dělá potíže třeba počítání písmen ve slově."
+    },
+    {
+      "id": "q39",
+      "question": "Proč chatbot nemusí znát úplně čerstvé události?",
+      "answers": [
+        "Nechce o nich mluvit",
+        "Jeho trénovací data končí k určitému datu",
+        "Zprávy jsou pro AI zakázané",
+        "Neumí číst noviny"
+      ],
+      "correct": 1,
+      "explanation": "Model ví jen to, co bylo v datech při trénování. Novější informace zná jen tehdy, když může vyhledávat na internetu."
+    },
+    {
+      "id": "q40",
+      "question": "Co znamená slovo hluboké v pojmu hluboké učení?",
+      "answers": [
+        "Že se model učí v noci",
+        "Že neuronová síť má mnoho vrstev",
+        "Že model rozumí citům",
+        "Že data jsou uložená pod zemí"
+      ],
+      "correct": 1,
+      "explanation": "Každá vrstva sítě zpracuje výstup té předchozí, a tak se postupně učí složitější vzorce."
+    },
+    {
+      "id": "q41",
+      "question": "Který stroj z 19. století bývá označován za předchůdce programovatelného počítače?",
+      "answers": [
+        "Parní stroj",
+        "Telegraf",
+        "Analytický stroj Charlese Babbage",
+        "Fonograf"
+      ],
+      "correct": 2,
+      "explanation": "Pro Babbageův analytický stroj napsala Ada Lovelace postup, který bývá považován za první program na světě."
+    },
+    {
+      "id": "q42",
+      "question": "Co dělá rozpoznávání řeči?",
+      "answers": [
+        "Převádí mluvené slovo na text",
+        "Překládá znakový jazyk",
+        "Hledá chyby v pravopisu",
+        "Zesiluje zvuk"
+      ],
+      "correct": 0,
+      "explanation": "Díky němu můžete telefonu diktovat zprávy nebo mluvit s hlasovým asistentem."
+    },
+    {
+      "id": "q43",
+      "question": "Co dnešní umělá inteligence nemá?",
+      "answers": [
+        "Schopnost psát text",
+        "Vlastní prožitky a pocity",
+        "Schopnost rozpoznat obrázek",
+        "Schopnost překládat"
+      ],
+      "correct": 1,
+      "explanation": "AI umí napodobit lidský jazyk, ale nic neprožívá. Když píše o pocitech, skládá text podle vzorců z dat."
+    },
+    {
+      "id": "q44",
+      "question": "K čemu slouží CAPTCHA, kde vybíráte obrázky s auty nebo semafory?",
+      "answers": [
+        "K trénování řidičů",
+        "K ověření, že web používá člověk, ne program",
+        "K měření rychlosti internetu",
+        "K reklamě na auta"
+      ],
+      "correct": 1,
+      "explanation": "Úlohy, které byly pro počítače těžké, pomáhají rozlišit lidi od programů. S rozvojem AI se proto CAPTCHA neustále mění."
+    },
+    {
+      "id": "q45",
+      "question": "Co znamená doladění neboli fine-tuning modelu?",
+      "answers": [
+        "Oprava překlepů v odpovědi",
+        "Další trénování hotového modelu na konkrétní úkol",
+        "Zrychlení internetu",
+        "Nastavení jasu obrazovky"
+      ],
+      "correct": 1,
+      "explanation": "Obecný model se doučí na menším souboru dat, například na dokumentech jedné firmy."
+    },
+    {
+      "id": "q46",
+      "question": "Co je otevřený model, takzvaný open source?",
+      "answers": [
+        "Model, jehož kód nebo váhy jsou veřejně dostupné",
+        "Model, který funguje jen venku",
+        "Model bez hesla",
+        "Model, který zná všechny odpovědi"
+      ],
+      "correct": 0,
+      "explanation": "Takový model si může kdokoli stáhnout a vyzkoušet. Přesné podmínky použití se ale liší podle licence."
+    },
+    {
+      "id": "q47",
+      "question": "Ve kterém filmu z roku 1968 vystupuje počítač HAL 9000?",
+      "answers": [
+        "Blade Runner",
+        "2001: Vesmírná odysea",
+        "Terminátor",
+        "Matrix"
+      ],
+      "correct": 1,
+      "explanation": "Film Stanleyho Kubricka vznikl ve spolupráci se spisovatelem Arthurem C. Clarkem."
+    },
+    {
+      "id": "q48",
+      "question": "Jak se jmenuje systém OpenAI, který tvoří obrázky podle textu?",
+      "answers": [
+        "Picasso",
+        "Monet",
+        "DALL-E",
+        "Rubens"
+      ],
+      "correct": 2,
+      "explanation": "Název spojuje malíře Salvadora Dalího a robota WALL-E z animovaného filmu."
+    },
+    {
+      "id": "q49",
+      "question": "Co podle AI Actu platí pro deepfaky?",
+      "answers": [
+        "Jsou úplně zakázané",
+        "Musí být označené jako uměle vytvořené nebo upravené",
+        "Smí je vytvářet jen státní úřady",
+        "Žádná pravidla pro ně neplatí"
+      ],
+      "correct": 1,
+      "explanation": "Lidé tak poznají, že video, obrázek nebo zvuk nejsou skutečný záznam."
+    },
+    {
+      "id": "q50",
+      "question": "Kolik kapitol má kurz Elements of AI?",
+      "answers": [
+        "Dvě",
+        "Šest",
+        "Dvanáct",
+        "Dvacet"
+      ],
+      "correct": 1,
+      "explanation": "Kurz je zdarma a v češtině, projdete ho vlastním tempem a na konci získáte certifikát."
+    }
+  ]
+}

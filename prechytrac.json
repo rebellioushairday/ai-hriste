@@ -1,0 +1,785 @@
+{
+  "title": "Přechytrač AI",
+  "intro": "AI zní sebejistě, i když si vymýšlí. V každém kole řekne tři věci a jedna z nich není pravda",
+  "note": "Tvrzení jsme připravili předem a ověřili. Hra neběží na živé AI.",
+  "roundsPerGame": 10,
+  "results": [
+    {
+      "minShare": 0,
+      "title": "Tentokrát vyhrála AI",
+      "text": "Sebejistý tón ještě neznamená, že má AI pravdu. Proto se vyplatí důležité informace ověřovat – my to děláme za vás v našem newsletteru."
+    },
+    {
+      "minShare": 0.5,
+      "title": "Remíza se ctí",
+      "text": "Na většinu triků jste nenaletěli. S AI je potřeba zůstat ve střehu a důležité informace ověřovat – my to děláme za vás v našem newsletteru."
+    },
+    {
+      "minShare": 0.8,
+      "title": "AI je přechytraná",
+      "text": "Máte dobrý čich na nesmysly a ten se vám u AI bude hodit. Důležité informace se ale vyplatí ověřovat vždy – my to děláme za vás v našem newsletteru."
+    }
+  ],
+  "rounds": [
+    {
+      "id": "r01",
+      "topic": "Historie AI",
+      "claims": [
+        {
+          "text": "Slovo „robot“ proslavila Čapkova hra R.U.R.",
+          "fake": false
+        },
+        {
+          "text": "Počítač Deep Blue porazil v roce 1997 Garriho Kasparova.",
+          "fake": false
+        },
+        {
+          "text": "Počítač Watson od IBM porazil v roce 2016 Lee Sedola ve hře go.",
+          "fake": true
+        }
+      ],
+      "explanation": "Lee Sedola porazil AlphaGo od DeepMind. Watson vyhrál v televizní soutěži Jeopardy!"
+    },
+    {
+      "id": "r02",
+      "topic": "Historie AI",
+      "claims": [
+        {
+          "text": "ChatGPT se stal veřejně dostupným v listopadu 2022.",
+          "fake": false
+        },
+        {
+          "text": "Pojem umělá inteligence se prosadil kolem konference v Dartmouthu v roce 1956.",
+          "fake": false
+        },
+        {
+          "text": "Geoffrey Hinton získal Nobelovu cenu za medicínu.",
+          "fake": true
+        }
+      ],
+      "explanation": "Hinton dostal v roce 2024 Nobelovu cenu za fyziku, společně s Johnem Hopfieldem."
+    },
+    {
+      "id": "r03",
+      "topic": "Historie AI",
+      "claims": [
+        {
+          "text": "Demis Hassabis získal v roce 2024 Nobelovu cenu za chemii.",
+          "fake": false
+        },
+        {
+          "text": "Alan Turing popsal svůj slavný test v roce 1950.",
+          "fake": false
+        },
+        {
+          "text": "Chatbota ELIZA vytvořil v 60. letech Bill Gates.",
+          "fake": true
+        }
+      ],
+      "explanation": "ELIZU vytvořil Joseph Weizenbaum z MIT. Bill Gates byl tehdy ještě dítě."
+    },
+    {
+      "id": "r04",
+      "topic": "Jak funguje AI",
+      "claims": [
+        {
+          "text": "Filtr spamu v e-mailu běžně využívá strojové učení.",
+          "fake": false
+        },
+        {
+          "text": "Stejná otázka může u AI vést pokaždé k trochu jiné odpovědi.",
+          "fake": false
+        },
+        {
+          "text": "Jazykový model si každé své tvrzení vždy ověří na internetu.",
+          "fake": true
+        }
+      ],
+      "explanation": "Model odpovídá hlavně podle toho, co se naučil. I když umí vyhledávat, vždy to neudělá a může se splést."
+    },
+    {
+      "id": "r05",
+      "topic": "Jak funguje AI",
+      "claims": [
+        {
+          "text": "AI umí vytvořit obrázek, který vypadá jako fotografie.",
+          "fake": false
+        },
+        {
+          "text": "AI Act je nařízení Evropské unie.",
+          "fake": false
+        },
+        {
+          "text": "Text napsaný AI jde detektorem vždy spolehlivě odhalit.",
+          "fake": true
+        }
+      ],
+      "explanation": "Detektory se mýlí. OpenAI svůj vlastní nástroj v roce 2023 stáhla kvůli nízké přesnosti."
+    },
+    {
+      "id": "r06",
+      "topic": "Technologie",
+      "claims": [
+        {
+          "text": "Slovo bit vzniklo spojením anglických slov binary digit.",
+          "fake": false
+        },
+        {
+          "text": "Ada Lovelace bývá označována za první programátorku.",
+          "fake": false
+        },
+        {
+          "text": "Bluetooth je pojmenovaný po svém vynálezci Jacku Bluetoothovi.",
+          "fake": true
+        }
+      ],
+      "explanation": "Název odkazuje na dánského krále Haralda Modrozuba, anglicky Harald Bluetooth."
+    },
+    {
+      "id": "r07",
+      "topic": "Technologie",
+      "claims": [
+        {
+          "text": "Znaku @ se česky říká zavináč.",
+          "fake": false
+        },
+        {
+          "text": "Emoji vznikla v Japonsku.",
+          "fake": false
+        },
+        {
+          "text": "Slovo spam je zkratka z anglického Send Personal And Mail.",
+          "fake": true
+        }
+      ],
+      "explanation": "Spam je značka konzervovaného masa. Pro nevyžádanou poštu se slovo vžilo díky skeči Monty Python."
+    },
+    {
+      "id": "r08",
+      "topic": "Praha",
+      "claims": [
+        {
+          "text": "Základní kámen Karlova mostu byl položen v roce 1357.",
+          "fake": false
+        },
+        {
+          "text": "Pražský orloj pochází z roku 1410.",
+          "fake": false
+        },
+        {
+          "text": "Petřínská rozhledna je vysoká přes 200 metrů.",
+          "fake": true
+        }
+      ],
+      "explanation": "Petřínská rozhledna měří asi 63,5 metru. Přes 200 metrů má Žižkovský vysílač."
+    },
+    {
+      "id": "r09",
+      "topic": "Česká vynalézavost",
+      "claims": [
+        {
+          "text": "Otto Wichterle stojí za vývojem měkkých kontaktních čoček.",
+          "fake": false
+        },
+        {
+          "text": "Kostka cukru vznikla v Dačicích.",
+          "fake": false
+        },
+        {
+          "text": "František Křižík vynalezl žárovku.",
+          "fake": true
+        }
+      ],
+      "explanation": "Křižík proslul obloukovou lampou s regulátorem. Žárovku rozšířil především Thomas Edison."
+    },
+    {
+      "id": "r10",
+      "topic": "Jídlo a pití",
+      "claims": [
+        {
+          "text": "Kofola přišla na trh v roce 1960.",
+          "fake": false
+        },
+        {
+          "text": "Plzeňský ležák se poprvé uvařil v roce 1842.",
+          "fake": false
+        },
+        {
+          "text": "Olomoucké tvarůžky se vyrábějí ze sladké smetany.",
+          "fake": true
+        }
+      ],
+      "explanation": "Tvarůžky se dělají z nízkotučného tvarohu a tuku mají jen velmi málo."
+    },
+    {
+      "id": "r11",
+      "topic": "Sport",
+      "claims": [
+        {
+          "text": "Emil Zátopek vyhrál na olympiádě v Helsinkách 5 km, 10 km i maraton.",
+          "fake": false
+        },
+        {
+          "text": "Jaromír Jágr dvakrát vyhrál Stanleyův pohár.",
+          "fake": false
+        },
+        {
+          "text": "Martina Navrátilová vyhrála dvacetkrát Wimbledon ve dvouhře.",
+          "fake": true
+        }
+      ],
+      "explanation": "Ve dvouhře vyhrála Wimbledon devětkrát, což je rekord. Dvacet titulů má dohromady i ze čtyřhry a smíšené čtyřhry."
+    },
+    {
+      "id": "r12",
+      "topic": "Česko",
+      "claims": [
+        {
+          "text": "Sněžka je nejvyšší hora Česka.",
+          "fake": false
+        },
+        {
+          "text": "Vltava je nejdelší řeka Česka.",
+          "fake": false
+        },
+        {
+          "text": "Největší rybník v Česku je Máchovo jezero.",
+          "fake": true
+        }
+      ],
+      "explanation": "Největší rybník v Česku je Rožmberk u Třeboně."
+    },
+    {
+      "id": "r13",
+      "topic": "Literatura",
+      "claims": [
+        {
+          "text": "Osudy dobrého vojáka Švejka napsal Jaroslav Hašek.",
+          "fake": false
+        },
+        {
+          "text": "Franz Kafka se narodil v Praze.",
+          "fake": false
+        },
+        {
+          "text": "Karel Čapek získal Nobelovu cenu za literaturu.",
+          "fake": true
+        }
+      ],
+      "explanation": "Čapek ji nikdy nezískal. Nobelovu cenu za literaturu dostal v roce 1984 Jaroslav Seifert."
+    },
+    {
+      "id": "r14",
+      "topic": "Věda",
+      "claims": [
+        {
+          "text": "Gregor Mendel dělal v Brně slavné pokusy s hrachem.",
+          "fake": false
+        },
+        {
+          "text": "Diamant i grafit jsou tvořeny uhlíkem.",
+          "fake": false
+        },
+        {
+          "text": "Blesk nikdy neuhodí dvakrát do stejného místa.",
+          "fake": true
+        }
+      ],
+      "explanation": "Rozšířený mýtus. Vysoké stavby zasahují blesky opakovaně."
+    },
+    {
+      "id": "r15",
+      "topic": "Lidské tělo",
+      "claims": [
+        {
+          "text": "Stehenní kost je nejdelší kost v lidském těle.",
+          "fake": false
+        },
+        {
+          "text": "Třmínek ve středním uchu je nejmenší kost v těle.",
+          "fake": false
+        },
+        {
+          "text": "Krev v žilách je modrá, dokud se nedostane ke vzduchu.",
+          "fake": true
+        }
+      ],
+      "explanation": "Lidská krev je vždy červená. Žíly jen modře vypadají přes kůži."
+    },
+    {
+      "id": "r16",
+      "topic": "Mýty",
+      "claims": [
+        {
+          "text": "Med se při správném skladování prakticky nekazí.",
+          "fake": false
+        },
+        {
+          "text": "Banán je z botanického hlediska bobule.",
+          "fake": false
+        },
+        {
+          "text": "Člověk využívá jen asi 10 % svého mozku.",
+          "fake": true
+        }
+      ],
+      "explanation": "Rozšířený mýtus. Během dne využíváme prakticky celý mozek."
+    },
+    {
+      "id": "r17",
+      "topic": "Vesmír",
+      "claims": [
+        {
+          "text": "Vladimír Remek letěl do vesmíru v roce 1978.",
+          "fake": false
+        },
+        {
+          "text": "Neil Armstrong vstoupil na Měsíc v roce 1969.",
+          "fake": false
+        },
+        {
+          "text": "Mezinárodní vesmírná stanice oběhne Zemi jednou za 24 hodin.",
+          "fake": true
+        }
+      ],
+      "explanation": "Stanice oběhne Zemi přibližně za 90 minut, takže její posádka vidí východ Slunce mnohokrát denně."
+    },
+    {
+      "id": "r18",
+      "topic": "Svět",
+      "claims": [
+        {
+          "text": "Eiffelova věž je v létě o něco vyšší než v zimě.",
+          "fake": false
+        },
+        {
+          "text": "Venuše se otočí kolem své osy pomaleji, než oběhne Slunce.",
+          "fake": false
+        },
+        {
+          "text": "Velkou čínskou zeď je pouhým okem vidět z Měsíce.",
+          "fake": true
+        }
+      ],
+      "explanation": "Rozšířený mýtus. Z Měsíce žádnou jednotlivou lidskou stavbu pouhým okem neuvidíte."
+    },
+    {
+      "id": "r19",
+      "topic": "Zvířata",
+      "claims": [
+        {
+          "text": "Žirafa má stejný počet krčních obratlů jako člověk.",
+          "fake": false
+        },
+        {
+          "text": "Koaly mají otisky prstů podobné lidským.",
+          "fake": false
+        },
+        {
+          "text": "Zlaté rybky si pamatují jen tři sekundy.",
+          "fake": true
+        }
+      ],
+      "explanation": "Rozšířený mýtus. Zlaté rybky si dokážou věci pamatovat celé týdny až měsíce."
+    },
+    {
+      "id": "r20",
+      "topic": "Zvířata",
+      "claims": [
+        {
+          "text": "Chobotnice má tři srdce.",
+          "fake": false
+        },
+        {
+          "text": "Včely si předávají informace o potravě tancem.",
+          "fake": false
+        },
+        {
+          "text": "Pštros strká při nebezpečí hlavu do písku.",
+          "fake": true
+        }
+      ],
+      "explanation": "Rozšířený mýtus. Pštros při nebezpečí utíká, nebo se přitiskne k zemi."
+    },
+    {
+      "id": "r21",
+      "topic": "Technologie",
+      "claims": [
+        {
+          "text": "První SMS zpráva byla odeslána v roce 1992.",
+          "fake": false
+        },
+        {
+          "text": "Wi-Fi přenáší data pomocí rádiových vln.",
+          "fake": false
+        },
+        {
+          "text": "První webová stránka vznikla v Praze.",
+          "fake": true
+        }
+      ],
+      "explanation": "První web vytvořil Tim Berners-Lee v CERN u Ženevy a spuštěn byl v roce 1991."
+    },
+    {
+      "id": "r22",
+      "topic": "Historie AI",
+      "claims": [
+        {
+          "text": "Pojem strojové učení zpopularizoval v roce 1959 Arthur Samuel.",
+          "fake": false
+        },
+        {
+          "text": "Hlasovou asistentku Siri představil Apple v roce 2011.",
+          "fake": false
+        },
+        {
+          "text": "Slovo algoritmus pochází z angličtiny.",
+          "fake": true
+        }
+      ],
+      "explanation": "Slovo vzniklo ze jména perského matematika al-Chorezmího, který žil v 9. století."
+    },
+    {
+      "id": "r23",
+      "topic": "Praha",
+      "claims": [
+        {
+          "text": "Pražský hrad je podle Guinnessovy knihy rekordů největší starobylý hradní komplex na světě.",
+          "fake": false
+        },
+        {
+          "text": "Tančící dům navrhli Vlado Milunić a Frank Gehry.",
+          "fake": false
+        },
+        {
+          "text": "Žižkovský vysílač je nejvyšší stavbou v Česku.",
+          "fake": true
+        }
+      ],
+      "explanation": "Žižkovský vysílač měří 216 metrů. Vyšší je například stožár vysílače Liblice B, který měří 355 metrů."
+    },
+    {
+      "id": "r24",
+      "topic": "Věda",
+      "claims": [
+        {
+          "text": "Na vrcholu Sněžky vře voda při nižší teplotě než v Praze.",
+          "fake": false
+        },
+        {
+          "text": "Světlo ze Slunce letí k Zemi zhruba 8 minut.",
+          "fake": false
+        },
+        {
+          "text": "Ve vesmíru se zvuk šíří stejně jako na Zemi.",
+          "fake": true
+        }
+      ],
+      "explanation": "Ve vakuu zvuk nemá čím se šířit, proto je ve vesmíru ticho."
+    },
+    {
+      "id": "r25",
+      "topic": "Zvířata",
+      "claims": [
+        {
+          "text": "Kolibřík umí létat i pozpátku.",
+          "fake": false
+        },
+        {
+          "text": "Sloni se dokážou poznat v zrcadle.",
+          "fake": false
+        },
+        {
+          "text": "Netopýři jsou úplně slepí.",
+          "fake": true
+        }
+      ],
+      "explanation": "Netopýři vidí. K orientaci ve tmě ale používají hlavně echolokaci."
+    },
+    {
+      "id": "r26",
+      "topic": "Česko",
+      "claims": [
+        {
+          "text": "Na Králickém Sněžníku se stýkají povodí tří moří.",
+          "fake": false
+        },
+        {
+          "text": "Nejníže položeným místem Česka je hladina Labe u Hřenska.",
+          "fake": false
+        },
+        {
+          "text": "Praha leží na Labi.",
+          "fake": true
+        }
+      ],
+      "explanation": "Praha leží na Vltavě. Ta se do Labe vlévá až u Mělníka."
+    },
+    {
+      "id": "r27",
+      "topic": "Jak funguje AI",
+      "claims": [
+        {
+          "text": "Jazykové modely pracují s textem rozděleným na kousky, takzvané tokeny.",
+          "fake": false
+        },
+        {
+          "text": "AI může mít potíže spočítat písmena ve slově.",
+          "fake": false
+        },
+        {
+          "text": "Chatbot se z každého rozhovoru okamžitě učí a hned si to pamatuje pro všechny uživatele.",
+          "fake": true
+        }
+      ],
+      "explanation": "Model se při běžném rozhovoru neučí. Případné další trénování probíhá odděleně a později."
+    },
+    {
+      "id": "r28",
+      "topic": "Technologie",
+      "claims": [
+        {
+          "text": "QR kód vznikl v Japonsku.",
+          "fake": false
+        },
+        {
+          "text": "Počítačovou myš veřejně předvedl Douglas Engelbart v roce 1968.",
+          "fake": false
+        },
+        {
+          "text": "První e-mail se poslal až v roce 2000.",
+          "fake": true
+        }
+      ],
+      "explanation": "První e-mail poslal Ray Tomlinson už v roce 1971 a zavedl v adrese znak @."
+    },
+    {
+      "id": "r29",
+      "topic": "Jídlo a pití",
+      "claims": [
+        {
+          "text": "Rajče je z botanického hlediska ovoce.",
+          "fake": false
+        },
+        {
+          "text": "Chilli papričky pálí kvůli látce zvané kapsaicin.",
+          "fake": false
+        },
+        {
+          "text": "Mrkev výrazně zlepšuje vidění ve tmě.",
+          "fake": true
+        }
+      ],
+      "explanation": "Mýtus šířili Britové za druhé světové války, aby utajili radar. Vitamin A je pro zrak důležitý, ale noční vidění nad běžnou míru nezlepší."
+    },
+    {
+      "id": "r30",
+      "topic": "Vesmír",
+      "claims": [
+        {
+          "text": "Jupiter je největší planeta Sluneční soustavy.",
+          "fake": false
+        },
+        {
+          "text": "Na Měsíci jsou dodnes stopy astronautů, protože tam nefouká vítr.",
+          "fake": false
+        },
+        {
+          "text": "Pluto je stále devátou planetou Sluneční soustavy.",
+          "fake": true
+        }
+      ],
+      "explanation": "Od roku 2006 je Pluto vedeno jako trpasličí planeta."
+    },
+    {
+      "id": "r31",
+      "topic": "Film a pohádky",
+      "claims": [
+        {
+          "text": "Krtka vytvořil Zdeněk Miler.",
+          "fake": false
+        },
+        {
+          "text": "Večerníček vysílá Česká televize od roku 1965.",
+          "fake": false
+        },
+        {
+          "text": "Pohádku Tři oříšky pro Popelku natočili v Hollywoodu.",
+          "fake": true
+        }
+      ],
+      "explanation": "Film vznikl v roce 1973 ve spolupráci Barrandova a německého studia DEFA. Natáčelo se v Česku a v Německu."
+    },
+    {
+      "id": "r32",
+      "topic": "Sport",
+      "claims": [
+        {
+          "text": "Čeští hokejisté vyhráli olympijské zlato v Naganu v roce 1998.",
+          "fake": false
+        },
+        {
+          "text": "Věra Čáslavská získala na olympiádách sedm zlatých medailí.",
+          "fake": false
+        },
+        {
+          "text": "Fotbal se na olympiádě nikdy nehrál.",
+          "fake": true
+        }
+      ],
+      "explanation": "Fotbal je olympijským sportem už od roku 1900. Československo v něm v roce 1980 vyhrálo zlato."
+    },
+    {
+      "id": "r33",
+      "topic": "Lidské tělo",
+      "claims": [
+        {
+          "text": "Lidské srdce udeří zhruba stotisíckrát za den.",
+          "fake": false
+        },
+        {
+          "text": "I jednovaječná dvojčata mají různé otisky prstů.",
+          "fake": false
+        },
+        {
+          "text": "Vlasy a nehty rostou i po smrti.",
+          "fake": true
+        }
+      ],
+      "explanation": "Je to mýtus. Pokožka po smrti vysychá a stahuje se, takže vlasy a nehty jen vypadají delší."
+    },
+    {
+      "id": "r34",
+      "topic": "Mýty",
+      "claims": [
+        {
+          "text": "Býka nerozzuří červená barva, ale pohyb látky.",
+          "fake": false
+        },
+        {
+          "text": "Spolknutá žvýkačka projde trávicím traktem obvykle za pár dní.",
+          "fake": false
+        },
+        {
+          "text": "Po oholení dorostou chlupy hustší a tmavší.",
+          "fake": true
+        }
+      ],
+      "explanation": "Holení nemění počet ani barvu chlupů. Seříznutý konec jen působí hrubší."
+    },
+    {
+      "id": "r35",
+      "topic": "AI v Česku",
+      "claims": [
+        {
+          "text": "Kurz Elements of AI je dostupný v češtině zdarma.",
+          "fake": false
+        },
+        {
+          "text": "Festival Dny AI se koná ve všech krajích Česka.",
+          "fake": false
+        },
+        {
+          "text": "V Česku zákon zakazuje používat chatboty ve školách.",
+          "fake": true
+        }
+      ],
+      "explanation": "Žádný takový zákon neexistuje. O používání AI ve výuce rozhodují školy a učitelé."
+    },
+    {
+      "id": "r36",
+      "topic": "Svět",
+      "claims": [
+        {
+          "text": "Kanada má nejdelší pobřeží na světě.",
+          "fake": false
+        },
+        {
+          "text": "Austrálie je širší než Měsíc.",
+          "fake": false
+        },
+        {
+          "text": "Sahara je největší poušť na světě.",
+          "fake": true
+        }
+      ],
+      "explanation": "Největší poušť je Antarktida. Sahara je největší horká poušť."
+    },
+    {
+      "id": "r37",
+      "topic": "Zvířata",
+      "claims": [
+        {
+          "text": "Plameňáci jsou růžoví kvůli potravě.",
+          "fake": false
+        },
+        {
+          "text": "Kočky necítí sladkou chuť.",
+          "fake": false
+        },
+        {
+          "text": "Velbloudi mají v hrbech zásobu vody.",
+          "fake": true
+        }
+      ],
+      "explanation": "V hrbech je tuk, který slouží jako zásoba energie."
+    },
+    {
+      "id": "r38",
+      "topic": "Technologie",
+      "claims": [
+        {
+          "text": "První digitální fotoaparát sestrojil inženýr firmy Kodak v roce 1975.",
+          "fake": false
+        },
+        {
+          "text": "Slovo software se začalo používat v 50. letech 20. století.",
+          "fake": false
+        },
+        {
+          "text": "Internet a web jsou totéž.",
+          "fake": true
+        }
+      ],
+      "explanation": "Internet je síť počítačů. Web je jen jedna ze služeb, které na něm běží, stejně jako třeba e-mail."
+    },
+    {
+      "id": "r39",
+      "topic": "Česká vynalézavost",
+      "claims": [
+        {
+          "text": "Prokop Diviš sestrojil v 18. století jeden z prvních hromosvodů.",
+          "fake": false
+        },
+        {
+          "text": "Josef Ressel si nechal patentovat lodní šroub.",
+          "fake": false
+        },
+        {
+          "text": "Jan Janský objevil rentgenové záření.",
+          "fake": true
+        }
+      ],
+      "explanation": "Jan Janský rozdělil krev do čtyř krevních skupin. Rentgenové záření objevil Wilhelm Röntgen."
+    },
+    {
+      "id": "r40",
+      "topic": "Historie",
+      "claims": [
+        {
+          "text": "Univerzita Karlova byla založena v roce 1348.",
+          "fake": false
+        },
+        {
+          "text": "Sametová revoluce začala 17. listopadu 1989.",
+          "fake": false
+        },
+        {
+          "text": "Československo vzniklo 1. ledna 1918.",
+          "fake": true
+        }
+      ],
+      "explanation": "Československo vzniklo 28. října 1918. K 1. lednu, ale roku 1993, vznikla samostatná Česká republika."
+    }
+  ]
+}
